@@ -15,7 +15,7 @@
 示例一： 函数执行前修改参数
 
 ```typescript
-import { before, IBeforeJoinPoint } from '@datayes/aspect';
+import { before, IBeforeJoinPoint } from '@/aspect';
 interface Page {
   render(num: number): string;
 }
@@ -39,7 +39,7 @@ page.render(1)
 
 ```typescript
 import * as React from 'react';
-import { Around, IAroundJoinPoint } from '@datayes/aspect';
+import { Around, IAroundJoinPoint } from '@/aspect';
 
 interface Props {
   list: number[];
