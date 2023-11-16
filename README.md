@@ -4,7 +4,7 @@
 
 ## 安装
 
-    npm install @datayes/aspect
+    npm install @/aspect
 
 ## 开发
     npm install
